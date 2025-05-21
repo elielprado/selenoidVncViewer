@@ -1,0 +1,35 @@
+{
+  "name": "selenoid-vnc-client",
+  "version": "1.0.0",
+  "description": "Simple web client for connecting to Selenoid browser sessions via VNC",
+  "main": "novnc.js",
+  "scripts": {
+    "start": "node novnc.js",
+    "dev": "nodemon novnc.js"
+  },
+  "keywords": [
+    "selenoid",
+    "vnc",
+    "selenium",
+    "testing",
+    "automation"
+  ],
+  "author": "Eliel Floriano Resende do Prado",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elielprado/selenoidVncViewer"
+  }
+}
